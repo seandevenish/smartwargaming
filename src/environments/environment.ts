@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  firebaseConfig: {
+  firebase: {
     apiKey: 'AIzaSyBzT4j0TvO281oaOZVHinOTbCcJtBnMkq8',
     authDomain: 'smartwargaming.firebaseapp.com',
     databaseURL: 'https://smartwargaming.firebaseio.com',

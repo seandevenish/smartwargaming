@@ -1,13 +1,16 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
-import { AngularFirestore } from '@angular/fire/firestore';
+import { ReactiveFormsModule } from '@angular/forms';
+import { AngularFireAnalyticsModule } from '@angular/fire/analytics';
+import { AngularFirestoreModule } from '@angular/fire/firestore';
 
 @NgModule({
   declarations: [],
   imports: [
     CommonModule,
-    AngularFirestore
+    ReactiveFormsModule,
+    AngularFirestoreModule,
+    AngularFireAnalyticsModule
   ]
 })
 export class SharedModule { }
