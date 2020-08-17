@@ -1,8 +1,11 @@
+import { MaterialModule } from './../material/material.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ReactiveFormsModule } from '@angular/forms';
 import { AngularFireAnalyticsModule } from '@angular/fire/analytics';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
+import { NgSelectModule } from '@ng-select/ng-select';
+
 
 @NgModule({
   declarations: [],
@@ -10,7 +13,12 @@ import { AngularFirestoreModule } from '@angular/fire/firestore';
     CommonModule,
     ReactiveFormsModule,
     AngularFirestoreModule,
-    AngularFireAnalyticsModule
+    AngularFireAnalyticsModule,
+    NgSelectModule,
+    MaterialModule
+  ],
+  exports: [
+    MaterialModule
   ]
 })
 export class SharedModule { }

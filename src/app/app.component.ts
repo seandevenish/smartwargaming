@@ -4,7 +4,7 @@ import { ActivatedRoute, Router, NavigationEnd } from '@angular/router';
 import { filter, map } from 'rxjs/operators';
 
 @Component({
-  selector: 'app-root',
+  selector: 'swg-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.sass']
 })
